@@ -1,4 +1,3 @@
-import * as C from '../src/components'
 import { SideBarProps } from '../src/components/side-bar'
 
 export const SideBarData: SideBarProps = {
@@ -153,12 +152,5 @@ export const SideBarData: SideBarProps = {
       ),
       subs: [{ label: 'Login', link: '/page/login' }]
     }
-  ]
-}
-export const imageGalleryProps: C.ImageGalleryProps = {
-  imgUrls: [
-    '/example/image-gallary/gallary-1.jpg',
-    '/example/image-gallary/gallary-2.jpg',
-    '/example/image-gallary/gallary-3.jpg'
   ]
 }
