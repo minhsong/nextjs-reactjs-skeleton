@@ -1,4 +1,4 @@
-import { DropdownButotn } from '../base'
+import { DropdownButton } from '../base'
 import * as Icons from '../base/Icons'
 import * as S from './Header.styles'
 
@@ -28,11 +28,11 @@ export const Header = () => {
         <S.MenuActionWrapper>
           {/* Notifications menu */}
           <li className='relative'>
-            <DropdownButotn />
+            <DropdownButton />
           </li>
           {/* Profile menu */}
           <li className='relative'>
-            <DropdownButotn />
+            <DropdownButton />
           </li>
         </S.MenuActionWrapper>
       </S.HeaderContent>

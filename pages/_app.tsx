@@ -1,4 +1,3 @@
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { AppProps } from 'next/app'
 // import { NextSeo } from 'next-seo'
 import AppStyles, { GlobalStyle } from '../src/styles/global.styles'

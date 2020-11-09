@@ -1,7 +1,10 @@
 import { useRef, useState } from 'react'
 import useOutSideClick from '../../hooks/useOutSideClick'
 
-export const DropdownButotn = () => {
+export interface DropdownButtonProps {
+  button?: any
+}
+export const DropdownButton = (props: DropdownButtonProps) => {
   const [open, setOpen] = useState(false)
   const wrapperRef = useRef(null)
   useOutSideClick(wrapperRef, () => setOpen(false))
@@ -12,6 +15,7 @@ export const DropdownButotn = () => {
         onClick={() => setOpen(!open)}
         aria-label='Account'
         aria-haspopup='true'
+        {...props}
       >
         <img
           className='object-cover w-8 h-8 rounded-full'
@@ -92,4 +96,4 @@ export const DropdownButotn = () => {
   )
 }
 
-export default DropdownButotn
+export default DropdownButton
