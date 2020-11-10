@@ -36,3 +36,7 @@ export const SubMenuWrapper = styled.ul`
 export const SubMenuItem = styled.li`
   ${tw`px-2 py-1 transition-colors duration-150 hover:text-gray-800`}
 `
+
+export const MobileBackdrop = styled.div`
+  ${tw`fixed inset-0 z-10 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center`}
+`

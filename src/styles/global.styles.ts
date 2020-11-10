@@ -83,4 +83,7 @@ export const MenuLink = styled.a<{ active?: boolean; hasSub?: boolean }>`
   ${({ hasSub }) => hasSub && tw`justify-between`}
 `
 
+export const Title = styled.h1`
+  ${tw`my-6 text-2xl font-semibold text-gray-700`}
+`
 export default AppStyles

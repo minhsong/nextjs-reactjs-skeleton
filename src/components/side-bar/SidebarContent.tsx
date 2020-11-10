@@ -57,7 +57,7 @@ const SidebarContent = (props: SideBarProps) => {
           ))}
       </ul>
       <div className='px-6 my-6'>
-        <Button>
+        <Button color='primary'>
           Create account
           <span className='ml-2' aria-hidden='true'>
             +

@@ -2,6 +2,7 @@ import { DropdownButton, DropdownItem, DropdownItemGroup } from '../base'
 import * as Icons from '../base/Icons'
 import * as S from './Header.styles'
 
+export interface HeaderProps {}
 export const Header = () => {
   const toggleSideMenu = () => {}
 
