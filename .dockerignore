@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+__mocks__
+__tests__
+.next
