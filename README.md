@@ -1,4 +1,4 @@
-# The Nextjs starter
+# The Nextjs Typescript starter
 
 Hopefully the last one you'll need 😉
 
