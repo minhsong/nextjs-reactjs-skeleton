@@ -5,7 +5,6 @@ Hopefully the last one you'll need 😉
 ## Features
 
 - ▲ Uses the latest [Next.js](https://github.com/zeit/next.js) along with [typescript](https://www.typescriptlang.org/)
-- 🎉 Icons from [fontawesome](https://fontawesome.com/) using [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
 - 💅 Styling with [styled-components](https://github.com/styled-components/styled-components)
 - 🐐 Unit testing with [react-testing-library](https://github.com/testing-library/react-testing-library)
 - 🖥 Custom reverse proxy server using [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
@@ -16,12 +15,32 @@ Hopefully the last one you'll need 😉
 
 ## Getting started
 
+Check out project and run command bellow to run project (check `package.json` for more detail)
+
+- Storybook
+
 ```
-git clone --depth=1 --branch=master git@github.com:techequipt/the-nextjs-starter.git into-folder & rm -rf ./into-folder/.git
-cd into-folder
-npm install
-cp ./.env.example ./.env
-npm start
+npm run build-storybook
+npm run storybook
+```
+
+- run project in development environment
+  -- Mac/Linux
+
+```
+npm run dev
+```
+
+-- windows
+
+```
+npm run devWindows
+```
+
+-- Run Jest test
+
+```
+npm run test
 ```
 
 The app will run at `http://localhost:3000`
@@ -54,7 +73,7 @@ Colors can be easily defined using tailwind css classes, eg:
 ```
 // Link with blue background, white text. Background changes to orange on hover
 
-<div className='bg-blue-700text-white hover:bg-orange'>
+<div className='bg-blue-700 md:text-white hover:bg-orange'>
   Some text
 </div>
 ```
