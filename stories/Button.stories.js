@@ -32,6 +32,6 @@ export const Buttons = () => (
 
 // story export
 export default {
-  title: '01-Buttons',
+  title: 'Buttons',
   component: Buttons
 }

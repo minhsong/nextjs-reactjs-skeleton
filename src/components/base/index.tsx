@@ -1,3 +1,7 @@
 export { Button, ButtonLink } from './Button'
-export { DropdownButton } from './DropdownButton'
+export {
+  DropdownButton,
+  DropdownItem,
+  DropdownItemGroup
+} from './dropdown-button'
 export * from './Icons'
